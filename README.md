@@ -2,6 +2,8 @@
 
 ## To create gitaction workflows
 
+## Trigger workflow using PUSH event
+
 #### 1/ We add in our repo .github/worflow/test.yml
 
 #### 2/ Add our jobs and steps then push the change to our remote repo
@@ -21,3 +23,7 @@
 #### Actions are some code can do some specific tastks that we can use in our steps in our github worflows
 
 ### Environment variables in workflow
+
+## TRigger workflow using
+
+## Using materix
