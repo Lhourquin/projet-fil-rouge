@@ -7,3 +7,5 @@
 #### 2/ Add our jobs and steps then push the change to our remote repo
 
 #### 3/ From remote repo, we can run our action, and see the result of our jobs and steps
+
+## In order to run the jobs depending on each other, we need to add needs: [ the jobs that this job depend on ]
