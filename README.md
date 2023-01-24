@@ -17,3 +17,5 @@
 #### 2/ We use with: to give inputs to our action
 
 #### 3/ Our action can give back an outputs
+
+#### Actions are some code can do some specific tastks that we can use in our steps in our github worflows
