@@ -19,3 +19,5 @@
 #### 3/ Our action can give back an outputs
 
 #### Actions are some code can do some specific tastks that we can use in our steps in our github worflows
+
+### Environment variables in workflow
