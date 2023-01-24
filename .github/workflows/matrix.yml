@@ -1,6 +1,6 @@
 name: Matrix
-on: push
-
+on: pull_request
+##So it will not run everytime we push
 jobs:
   node-version:
     strategy:
