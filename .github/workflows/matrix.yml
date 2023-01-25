@@ -1,0 +1,21 @@
+name: Matrix
+on: pull_request
+##So it will not run everytime we push
+jobs:
+  node-version:
+    strategy:
+      matrix:
+        os: [macos-latest, ubuntu-latest, windows-latest]
+        node_version: [6, 8, 10]
+      ##max-parallel: 0
+      ##max => to limit the steps run in parallel
+      ## fail-fast: true
+      #fail-fast: true means if one fails all others steps will fail
+    runs-on: ubuntu-latest
+    steps:
+      - name: Log node node version
+        run: node -v
+      - uses: actions/setup-node@v1
+        with: node-version:${{matrix.node_version}}
+      - name: Log node version
+        run: node -v
